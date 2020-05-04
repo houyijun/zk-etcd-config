@@ -39,7 +39,7 @@
 		<slf4j-api.version>1.6.4</slf4j-api.version>
 		<jetcd.version>0.4.1</jetcd.version>
 		<curator.version>4.0.1</curator.version>
-		<zk.version>3.4.8</zk.version>
+		<zk.version>3.4.14</zk.version>
 		<commons-lang3>3.1</commons-lang3>
 		<maven-compiler-plugin.version>2.3.2</maven-compiler-plugin.version>
 	</properties>
