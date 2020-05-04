@@ -16,7 +16,6 @@ import org.slf4j.LoggerFactory;
 import houyijun.dynamic.config.ConfigUtils;
 import houyijun.dynamic.config.IConfiger;
 import houyijun.dynamic.config.IWatcher;
-import houyijun.dynamic.config.impl.EtcdV3Configer.WatcherThread;
 
 public class ZooKeeperConfiger implements IConfiger {
 	private static final Logger LOG = LoggerFactory.getLogger(ZooKeeperConfiger.class);
