@@ -1,4 +1,4 @@
-package houyijun.dynamic.config.impl;
+package io.github.houyijun.dynamic.config.impl;
 
 import java.util.HashMap;
 import java.util.concurrent.CountDownLatch;
@@ -13,9 +13,9 @@ import org.apache.curator.retry.ExponentialBackoffRetry;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import houyijun.dynamic.config.ConfigUtils;
-import houyijun.dynamic.config.IConfiger;
-import houyijun.dynamic.config.IWatcher;
+import io.github.houyijun.dynamic.config.ConfigUtils;
+import io.github.houyijun.dynamic.config.IConfiger;
+import io.github.houyijun.dynamic.config.IWatcher;
 
 public class ZooKeeperConfiger implements IConfiger {
 	private static final Logger LOG = LoggerFactory.getLogger(ZooKeeperConfiger.class);

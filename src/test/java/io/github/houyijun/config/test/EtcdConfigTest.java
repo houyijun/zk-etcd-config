@@ -1,11 +1,11 @@
-package config.test;
+package io.github.houyijun.config.test;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import houyijun.dynamic.config.IConfiger;
-import houyijun.dynamic.config.IWatcher;
-import houyijun.dynamic.config.factory.ConfigerFactory;
+import io.github.houyijun.dynamic.config.IConfiger;
+import io.github.houyijun.dynamic.config.IWatcher;
+import io.github.houyijun.dynamic.config.factory.ConfigerFactory;
 
 
 public class EtcdConfigTest {

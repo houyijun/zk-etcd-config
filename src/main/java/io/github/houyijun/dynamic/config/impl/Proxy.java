@@ -1,4 +1,4 @@
-package houyijun.dynamic.config.impl;
+package io.github.houyijun.dynamic.config.impl;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -8,7 +8,7 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.locks.ReentrantLock;
 
-import houyijun.dynamic.config.IWatcher;
+import io.github.houyijun.dynamic.config.IWatcher;
 
 public class Proxy {
 	

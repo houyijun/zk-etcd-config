@@ -1,4 +1,4 @@
-package houyijun.dynamic.config;
+package io.github.houyijun.dynamic.config;
 
 
 public interface IConfiger {

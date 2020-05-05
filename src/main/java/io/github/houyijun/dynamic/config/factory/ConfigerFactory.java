@@ -1,8 +1,8 @@
-package houyijun.dynamic.config.factory;
+package io.github.houyijun.dynamic.config.factory;
 
-import houyijun.dynamic.config.IConfiger;
-import houyijun.dynamic.config.impl.EtcdV3Configer;
-import houyijun.dynamic.config.impl.ZooKeeperConfiger;
+import io.github.houyijun.dynamic.config.IConfiger;
+import io.github.houyijun.dynamic.config.impl.EtcdV3Configer;
+import io.github.houyijun.dynamic.config.impl.ZooKeeperConfiger;
 
 public class ConfigerFactory {
 	private static final String ETCD_V3="etcd-v3";

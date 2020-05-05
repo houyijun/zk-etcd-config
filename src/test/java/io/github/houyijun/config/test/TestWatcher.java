@@ -1,9 +1,9 @@
-package config.test;
+package io.github.houyijun.config.test;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import houyijun.dynamic.config.IWatcher;
+import io.github.houyijun.dynamic.config.IWatcher;
 
 public class TestWatcher implements IWatcher{
 	private static final Logger LOG = LoggerFactory.getLogger(TestWatcher.class);

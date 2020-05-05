@@ -1,4 +1,4 @@
-package houyijun.dynamic.config;
+package io.github.houyijun.dynamic.config;
 
 import java.io.ByteArrayInputStream;
 import java.io.InputStream;

@@ -1,4 +1,4 @@
-package houyijun.dynamic.config.impl;
+package io.github.houyijun.dynamic.config.impl;
 
 import java.net.URI;
 import java.util.ArrayList;
@@ -11,9 +11,6 @@ import java.util.concurrent.CountDownLatch;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import houyijun.dynamic.config.ConfigUtils;
-import houyijun.dynamic.config.IConfiger;
-import houyijun.dynamic.config.IWatcher;
 import io.etcd.jetcd.ByteSequence;
 import io.etcd.jetcd.Client;
 import io.etcd.jetcd.KV;
@@ -21,6 +18,9 @@ import io.etcd.jetcd.Watch;
 import io.etcd.jetcd.Util;
 import io.etcd.jetcd.kv.GetResponse;
 import io.etcd.jetcd.watch.WatchEvent;
+import io.github.houyijun.dynamic.config.ConfigUtils;
+import io.github.houyijun.dynamic.config.IConfiger;
+import io.github.houyijun.dynamic.config.IWatcher;
 
 public class EtcdV3Configer implements IConfiger {
 	private static final Logger LOG = LoggerFactory.getLogger(IConfiger.class);
